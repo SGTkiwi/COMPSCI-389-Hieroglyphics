@@ -11,7 +11,7 @@ for subdir, dirs, files in os.walk(root_dir):
     
     for file in files:
         
-        if file.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif')):
+        if file.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif', '.svg')):
             img_count += 1
 
     if os.path.basename(subdir) == 'Resources':
